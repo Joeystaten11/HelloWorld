@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942882691F1D774E008AD3E8 /* Tommy11.png in Resources */ = {isa = PBXBuildFile; fileRef = 942882681F1D774E008AD3E8 /* Tommy11.png */; };
+		943E06F01F1D6CCF00317A31 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 943E06EF1F1D6CCF00317A31 /* ground.png */; };
+		946AFF531F1D3F990043D54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AFF521F1D3F990043D54F /* AppDelegate.swift */; };
+		946AFF571F1D3F990043D54F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF561F1D3F990043D54F /* Actions.sks */; };
+		946AFF5B1F1D3F990043D54F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AFF5A1F1D3F990043D54F /* GameViewController.swift */; };
+		946AFF5E1F1D3F990043D54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF5C1F1D3F990043D54F /* Main.storyboard */; };
+		946AFF601F1D3F990043D54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF5F1F1D3F990043D54F /* Assets.xcassets */; };
+		946AFF631F1D3F990043D54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF611F1D3F990043D54F /* LaunchScreen.storyboard */; };
+		946AFF6E1F1D3F9A0043D54F /* TommyAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AFF6D1F1D3F9A0043D54F /* TommyAttackTests.swift */; };
+		946AFF791F1D3F9A0043D54F /* TommyAttackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AFF781F1D3F9A0043D54F /* TommyAttackUITests.swift */; };
+		946AFF8D1F1D62C60043D54F /* Tommy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AFF8C1F1D62C60043D54F /* Tommy.swift */; };
+		946AFF8F1F1D63510043D54F /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AFF8E1F1D63510043D54F /* GamePlayScene.swift */; };
+		946AFFAC1F1D63E30043D54F /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF901F1D63E30043D54F /* bag.png */; };
+		946AFFAD1F1D63E30043D54F /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF911F1D63E30043D54F /* banana.png */; };
+		946AFFAE1F1D63E30043D54F /* beef.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF921F1D63E30043D54F /* beef.png */; };
+		946AFFAF1F1D63E30043D54F /* bomb_expert.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF931F1D63E30043D54F /* bomb_expert.png */; };
+		946AFFB01F1D63E30043D54F /* bones.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF941F1D63E30043D54F /* bones.png */; };
+		946AFFB11F1D63E30043D54F /* bronze_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF951F1D63E30043D54F /* bronze_coin.png */; };
+		946AFFB21F1D63E30043D54F /* Bush.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF961F1D63E30043D54F /* Bush.png */; };
+		946AFFB31F1D63E30043D54F /* coif.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF971F1D63E30043D54F /* coif.png */; };
+		946AFFB41F1D63E30043D54F /* coin_gold_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF981F1D63E30043D54F /* coin_gold_1.png */; };
+		946AFFB51F1D63E30043D54F /* coin_gold_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF991F1D63E30043D54F /* coin_gold_2.png */; };
+		946AFFB61F1D63E30043D54F /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF9A1F1D63E30043D54F /* back2.png */; };
+		946AFFB71F1D63E30043D54F /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF9B1F1D63E30043D54F /* back1.png */; };
+		946AFFB81F1D63E30043D54F /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF9C1F1D63E30043D54F /* crown.png */; };
+		946AFFB91F1D63E30043D54F /* dagger_iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF9D1F1D63E30043D54F /* dagger_iron.png */; };
+		946AFFBA1F1D63E30043D54F /* helmet_heavy_iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF9E1F1D63E30043D54F /* helmet_heavy_iron.png */; };
+		946AFFBB1F1D63E30043D54F /* images-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 946AFF9F1F1D63E30043D54F /* images-2.jpg */; };
+		946AFFBC1F1D63E30043D54F /* knife_iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA01F1D63E30043D54F /* knife_iron.png */; };
+		946AFFBD1F1D63E30043D54F /* plate_armor_iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA11F1D63E30043D54F /* plate_armor_iron.png */; };
+		946AFFBE1F1D63E30043D54F /* potion_green_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA21F1D63E30043D54F /* potion_green_small.png */; };
+		946AFFBF1F1D63E30043D54F /* potion_red_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA31F1D63E30043D54F /* potion_red_small.png */; };
+		946AFFC01F1D63E30043D54F /* shield_kite_iron_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA41F1D63E30043D54F /* shield_kite_iron_2.png */; };
+		946AFFC11F1D63E30043D54F /* shield_square_iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA51F1D63E30043D54F /* shield_square_iron.png */; };
+		946AFFC21F1D63E30043D54F /* skull.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA61F1D63E30043D54F /* skull.png */; };
+		946AFFC31F1D63E30043D54F /* sword_iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA71F1D63E30043D54F /* sword_iron.png */; };
+		946AFFC41F1D63E30043D54F /* Templar_Attack.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFA81F1D63E30043D54F /* Templar_Attack.png */; };
+		946AFFC61F1D63E30043D54F /* Tile_Stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFAA1F1D63E30043D54F /* Tile_Stone.png */; };
+		946AFFC71F1D63E30043D54F /* Unicorn's Evolving Swords_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFAB1F1D63E30043D54F /* Unicorn's Evolving Swords_00.png */; };
+		946AFFC91F1D67150043D54F /* Tommy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFC81F1D67150043D54F /* Tommy1.png */; };
+		946AFFCB1F1D6ACF0043D54F /* Tommy10.png in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFCA1F1D6ACF0043D54F /* Tommy10.png */; };
+		946AFFCD1F1D6BD10043D54F /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 946AFFCC1F1D6BD10043D54F /* GamePlayScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		946AFF6A1F1D3F9A0043D54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946AFF471F1D3F990043D54F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946AFF4E1F1D3F990043D54F;
+			remoteInfo = TommyAttack;
+		};
+		946AFF751F1D3F9A0043D54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946AFF471F1D3F990043D54F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946AFF4E1F1D3F990043D54F;
+			remoteInfo = TommyAttack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942882681F1D774E008AD3E8 /* Tommy11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tommy11.png; sourceTree = "<group>"; };
+		943E06EF1F1D6CCF00317A31 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		946AFF4F1F1D3F990043D54F /* TommyAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TommyAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946AFF521F1D3F990043D54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		946AFF561F1D3F990043D54F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		946AFF5A1F1D3F990043D54F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		946AFF5D1F1D3F990043D54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		946AFF5F1F1D3F990043D54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946AFF621F1D3F990043D54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		946AFF641F1D3F990043D54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946AFF691F1D3F9A0043D54F /* TommyAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TommyAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946AFF6D1F1D3F9A0043D54F /* TommyAttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TommyAttackTests.swift; sourceTree = "<group>"; };
+		946AFF6F1F1D3F9A0043D54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946AFF741F1D3F9A0043D54F /* TommyAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TommyAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946AFF781F1D3F9A0043D54F /* TommyAttackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TommyAttackUITests.swift; sourceTree = "<group>"; };
+		946AFF7A1F1D3F9A0043D54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946AFF8C1F1D62C60043D54F /* Tommy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tommy.swift; sourceTree = "<group>"; };
+		946AFF8E1F1D63510043D54F /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
+		946AFF901F1D63E30043D54F /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag.png; sourceTree = "<group>"; };
+		946AFF911F1D63E30043D54F /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		946AFF921F1D63E30043D54F /* beef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beef.png; sourceTree = "<group>"; };
+		946AFF931F1D63E30043D54F /* bomb_expert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb_expert.png; sourceTree = "<group>"; };
+		946AFF941F1D63E30043D54F /* bones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bones.png; sourceTree = "<group>"; };
+		946AFF951F1D63E30043D54F /* bronze_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bronze_coin.png; sourceTree = "<group>"; };
+		946AFF961F1D63E30043D54F /* Bush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bush.png; sourceTree = "<group>"; };
+		946AFF971F1D63E30043D54F /* coif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coif.png; sourceTree = "<group>"; };
+		946AFF981F1D63E30043D54F /* coin_gold_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin_gold_1.png; sourceTree = "<group>"; };
+		946AFF991F1D63E30043D54F /* coin_gold_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin_gold_2.png; sourceTree = "<group>"; };
+		946AFF9A1F1D63E30043D54F /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		946AFF9B1F1D63E30043D54F /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
+		946AFF9C1F1D63E30043D54F /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		946AFF9D1F1D63E30043D54F /* dagger_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagger_iron.png; sourceTree = "<group>"; };
+		946AFF9E1F1D63E30043D54F /* helmet_heavy_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helmet_heavy_iron.png; sourceTree = "<group>"; };
+		946AFF9F1F1D63E30043D54F /* images-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpg"; sourceTree = "<group>"; };
+		946AFFA01F1D63E30043D54F /* knife_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knife_iron.png; sourceTree = "<group>"; };
+		946AFFA11F1D63E30043D54F /* plate_armor_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_armor_iron.png; sourceTree = "<group>"; };
+		946AFFA21F1D63E30043D54F /* potion_green_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potion_green_small.png; sourceTree = "<group>"; };
+		946AFFA31F1D63E30043D54F /* potion_red_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potion_red_small.png; sourceTree = "<group>"; };
+		946AFFA41F1D63E30043D54F /* shield_kite_iron_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shield_kite_iron_2.png; sourceTree = "<group>"; };
+		946AFFA51F1D63E30043D54F /* shield_square_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shield_square_iron.png; sourceTree = "<group>"; };
+		946AFFA61F1D63E30043D54F /* skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull.png; sourceTree = "<group>"; };
+		946AFFA71F1D63E30043D54F /* sword_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sword_iron.png; sourceTree = "<group>"; };
+		946AFFA81F1D63E30043D54F /* Templar_Attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Templar_Attack.png; sourceTree = "<group>"; };
+		946AFFAA1F1D63E30043D54F /* Tile_Stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_Stone.png; sourceTree = "<group>"; };
+		946AFFAB1F1D63E30043D54F /* Unicorn's Evolving Swords_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unicorn's Evolving Swords_00.png"; sourceTree = "<group>"; };
+		946AFFC81F1D67150043D54F /* Tommy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tommy1.png; sourceTree = "<group>"; };
+		946AFFCA1F1D6ACF0043D54F /* Tommy10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tommy10.png; sourceTree = "<group>"; };
+		946AFFCC1F1D6BD10043D54F /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946AFF4C1F1D3F990043D54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946AFF661F1D3F9A0043D54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946AFF711F1D3F9A0043D54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946AFF461F1D3F990043D54F = {
+			isa = PBXGroup;
+			children = (
+				946AFF511F1D3F990043D54F /* TommyAttack */,
+				946AFF861F1D62150043D54F /* Classes */,
+				946AFF891F1D62390043D54F /* Scenes */,
+				946AFF8A1F1D62400043D54F /* Assets */,
+				946AFF6C1F1D3F9A0043D54F /* TommyAttackTests */,
+				946AFF771F1D3F9A0043D54F /* TommyAttackUITests */,
+				946AFF501F1D3F990043D54F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		946AFF501F1D3F990043D54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF4F1F1D3F990043D54F /* TommyAttack.app */,
+				946AFF691F1D3F9A0043D54F /* TommyAttackTests.xctest */,
+				946AFF741F1D3F9A0043D54F /* TommyAttackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946AFF511F1D3F990043D54F /* TommyAttack */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF521F1D3F990043D54F /* AppDelegate.swift */,
+				946AFF561F1D3F990043D54F /* Actions.sks */,
+				946AFF5A1F1D3F990043D54F /* GameViewController.swift */,
+				946AFF5C1F1D3F990043D54F /* Main.storyboard */,
+				946AFF5F1F1D3F990043D54F /* Assets.xcassets */,
+				946AFF611F1D3F990043D54F /* LaunchScreen.storyboard */,
+				946AFF641F1D3F990043D54F /* Info.plist */,
+			);
+			path = TommyAttack;
+			sourceTree = "<group>";
+		};
+		946AFF6C1F1D3F9A0043D54F /* TommyAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF6D1F1D3F9A0043D54F /* TommyAttackTests.swift */,
+				946AFF6F1F1D3F9A0043D54F /* Info.plist */,
+			);
+			path = TommyAttackTests;
+			sourceTree = "<group>";
+		};
+		946AFF771F1D3F9A0043D54F /* TommyAttackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF781F1D3F9A0043D54F /* TommyAttackUITests.swift */,
+				946AFF7A1F1D3F9A0043D54F /* Info.plist */,
+			);
+			path = TommyAttackUITests;
+			sourceTree = "<group>";
+		};
+		946AFF861F1D62150043D54F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF871F1D621C0043D54F /* TommyClass */,
+				946AFF8B1F1D626C0043D54F /* SceneClass */,
+				946AFF881F1D62330043D54F /* RandomClass */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		946AFF871F1D621C0043D54F /* TommyClass */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF8C1F1D62C60043D54F /* Tommy.swift */,
+			);
+			name = TommyClass;
+			sourceTree = "<group>";
+		};
+		946AFF881F1D62330043D54F /* RandomClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RandomClass;
+			sourceTree = "<group>";
+		};
+		946AFF891F1D62390043D54F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				946AFFCC1F1D6BD10043D54F /* GamePlayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		946AFF8A1F1D62400043D54F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				942882681F1D774E008AD3E8 /* Tommy11.png */,
+				946AFFC81F1D67150043D54F /* Tommy1.png */,
+				946AFFCA1F1D6ACF0043D54F /* Tommy10.png */,
+				946AFF901F1D63E30043D54F /* bag.png */,
+				946AFF911F1D63E30043D54F /* banana.png */,
+				946AFF921F1D63E30043D54F /* beef.png */,
+				946AFF931F1D63E30043D54F /* bomb_expert.png */,
+				946AFF941F1D63E30043D54F /* bones.png */,
+				946AFF951F1D63E30043D54F /* bronze_coin.png */,
+				946AFF9A1F1D63E30043D54F /* back2.png */,
+				946AFF9B1F1D63E30043D54F /* back1.png */,
+				946AFF961F1D63E30043D54F /* Bush.png */,
+				946AFF971F1D63E30043D54F /* coif.png */,
+				946AFF981F1D63E30043D54F /* coin_gold_1.png */,
+				946AFF991F1D63E30043D54F /* coin_gold_2.png */,
+				946AFF9C1F1D63E30043D54F /* crown.png */,
+				946AFF9D1F1D63E30043D54F /* dagger_iron.png */,
+				946AFF9E1F1D63E30043D54F /* helmet_heavy_iron.png */,
+				946AFF9F1F1D63E30043D54F /* images-2.jpg */,
+				946AFFA01F1D63E30043D54F /* knife_iron.png */,
+				943E06EF1F1D6CCF00317A31 /* ground.png */,
+				946AFFA11F1D63E30043D54F /* plate_armor_iron.png */,
+				946AFFA21F1D63E30043D54F /* potion_green_small.png */,
+				946AFFA31F1D63E30043D54F /* potion_red_small.png */,
+				946AFFA41F1D63E30043D54F /* shield_kite_iron_2.png */,
+				946AFFA51F1D63E30043D54F /* shield_square_iron.png */,
+				946AFFA61F1D63E30043D54F /* skull.png */,
+				946AFFA71F1D63E30043D54F /* sword_iron.png */,
+				946AFFA81F1D63E30043D54F /* Templar_Attack.png */,
+				946AFFAA1F1D63E30043D54F /* Tile_Stone.png */,
+				946AFFAB1F1D63E30043D54F /* Unicorn's Evolving Swords_00.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		946AFF8B1F1D626C0043D54F /* SceneClass */ = {
+			isa = PBXGroup;
+			children = (
+				946AFF8E1F1D63510043D54F /* GamePlayScene.swift */,
+			);
+			name = SceneClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946AFF4E1F1D3F990043D54F /* TommyAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946AFF7D1F1D3F9A0043D54F /* Build configuration list for PBXNativeTarget "TommyAttack" */;
+			buildPhases = (
+				946AFF4B1F1D3F990043D54F /* Sources */,
+				946AFF4C1F1D3F990043D54F /* Frameworks */,
+				946AFF4D1F1D3F990043D54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TommyAttack;
+			productName = TommyAttack;
+			productReference = 946AFF4F1F1D3F990043D54F /* TommyAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		946AFF681F1D3F9A0043D54F /* TommyAttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946AFF801F1D3F9A0043D54F /* Build configuration list for PBXNativeTarget "TommyAttackTests" */;
+			buildPhases = (
+				946AFF651F1D3F9A0043D54F /* Sources */,
+				946AFF661F1D3F9A0043D54F /* Frameworks */,
+				946AFF671F1D3F9A0043D54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946AFF6B1F1D3F9A0043D54F /* PBXTargetDependency */,
+			);
+			name = TommyAttackTests;
+			productName = TommyAttackTests;
+			productReference = 946AFF691F1D3F9A0043D54F /* TommyAttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946AFF731F1D3F9A0043D54F /* TommyAttackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946AFF831F1D3F9A0043D54F /* Build configuration list for PBXNativeTarget "TommyAttackUITests" */;
+			buildPhases = (
+				946AFF701F1D3F9A0043D54F /* Sources */,
+				946AFF711F1D3F9A0043D54F /* Frameworks */,
+				946AFF721F1D3F9A0043D54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946AFF761F1D3F9A0043D54F /* PBXTargetDependency */,
+			);
+			name = TommyAttackUITests;
+			productName = TommyAttackUITests;
+			productReference = 946AFF741F1D3F9A0043D54F /* TommyAttackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946AFF471F1D3F990043D54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joseph Staten";
+				TargetAttributes = {
+					946AFF4E1F1D3F990043D54F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					946AFF681F1D3F9A0043D54F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 946AFF4E1F1D3F990043D54F;
+					};
+					946AFF731F1D3F9A0043D54F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 946AFF4E1F1D3F990043D54F;
+					};
+				};
+			};
+			buildConfigurationList = 946AFF4A1F1D3F990043D54F /* Build configuration list for PBXProject "TommyAttack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946AFF461F1D3F990043D54F;
+			productRefGroup = 946AFF501F1D3F990043D54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946AFF4E1F1D3F990043D54F /* TommyAttack */,
+				946AFF681F1D3F9A0043D54F /* TommyAttackTests */,
+				946AFF731F1D3F9A0043D54F /* TommyAttackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946AFF4D1F1D3F990043D54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943E06F01F1D6CCF00317A31 /* ground.png in Resources */,
+				946AFFC01F1D63E30043D54F /* shield_kite_iron_2.png in Resources */,
+				946AFFC61F1D63E30043D54F /* Tile_Stone.png in Resources */,
+				946AFF5E1F1D3F990043D54F /* Main.storyboard in Resources */,
+				946AFFBA1F1D63E30043D54F /* helmet_heavy_iron.png in Resources */,
+				946AFFBF1F1D63E30043D54F /* potion_red_small.png in Resources */,
+				946AFFB61F1D63E30043D54F /* back2.png in Resources */,
+				946AFFAF1F1D63E30043D54F /* bomb_expert.png in Resources */,
+				946AFFC91F1D67150043D54F /* Tommy1.png in Resources */,
+				946AFFC41F1D63E30043D54F /* Templar_Attack.png in Resources */,
+				946AFFCB1F1D6ACF0043D54F /* Tommy10.png in Resources */,
+				946AFFBD1F1D63E30043D54F /* plate_armor_iron.png in Resources */,
+				946AFFC31F1D63E30043D54F /* sword_iron.png in Resources */,
+				946AFFB91F1D63E30043D54F /* dagger_iron.png in Resources */,
+				942882691F1D774E008AD3E8 /* Tommy11.png in Resources */,
+				946AFFC71F1D63E30043D54F /* Unicorn's Evolving Swords_00.png in Resources */,
+				946AFFB11F1D63E30043D54F /* bronze_coin.png in Resources */,
+				946AFFB71F1D63E30043D54F /* back1.png in Resources */,
+				946AFFB21F1D63E30043D54F /* Bush.png in Resources */,
+				946AFFB01F1D63E30043D54F /* bones.png in Resources */,
+				946AFFB51F1D63E30043D54F /* coin_gold_2.png in Resources */,
+				946AFF601F1D3F990043D54F /* Assets.xcassets in Resources */,
+				946AFFCD1F1D6BD10043D54F /* GamePlayScene.sks in Resources */,
+				946AFFB81F1D63E30043D54F /* crown.png in Resources */,
+				946AFFBB1F1D63E30043D54F /* images-2.jpg in Resources */,
+				946AFFBC1F1D63E30043D54F /* knife_iron.png in Resources */,
+				946AFFC11F1D63E30043D54F /* shield_square_iron.png in Resources */,
+				946AFFB41F1D63E30043D54F /* coin_gold_1.png in Resources */,
+				946AFFC21F1D63E30043D54F /* skull.png in Resources */,
+				946AFFAD1F1D63E30043D54F /* banana.png in Resources */,
+				946AFFBE1F1D63E30043D54F /* potion_green_small.png in Resources */,
+				946AFFAC1F1D63E30043D54F /* bag.png in Resources */,
+				946AFFB31F1D63E30043D54F /* coif.png in Resources */,
+				946AFFAE1F1D63E30043D54F /* beef.png in Resources */,
+				946AFF631F1D3F990043D54F /* LaunchScreen.storyboard in Resources */,
+				946AFF571F1D3F990043D54F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946AFF671F1D3F9A0043D54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946AFF721F1D3F9A0043D54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946AFF4B1F1D3F990043D54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946AFF8F1F1D63510043D54F /* GamePlayScene.swift in Sources */,
+				946AFF5B1F1D3F990043D54F /* GameViewController.swift in Sources */,
+				946AFF531F1D3F990043D54F /* AppDelegate.swift in Sources */,
+				946AFF8D1F1D62C60043D54F /* Tommy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946AFF651F1D3F9A0043D54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946AFF6E1F1D3F9A0043D54F /* TommyAttackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946AFF701F1D3F9A0043D54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946AFF791F1D3F9A0043D54F /* TommyAttackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		946AFF6B1F1D3F9A0043D54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946AFF4E1F1D3F990043D54F /* TommyAttack */;
+			targetProxy = 946AFF6A1F1D3F9A0043D54F /* PBXContainerItemProxy */;
+		};
+		946AFF761F1D3F9A0043D54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946AFF4E1F1D3F990043D54F /* TommyAttack */;
+			targetProxy = 946AFF751F1D3F9A0043D54F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		946AFF5C1F1D3F990043D54F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946AFF5D1F1D3F990043D54F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		946AFF611F1D3F990043D54F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946AFF621F1D3F990043D54F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946AFF7B1F1D3F9A0043D54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		946AFF7C1F1D3F9A0043D54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946AFF7E1F1D3F9A0043D54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				INFOPLIST_FILE = TommyAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StatenInc.TommyAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		946AFF7F1F1D3F9A0043D54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				INFOPLIST_FILE = TommyAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StatenInc.TommyAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		946AFF811F1D3F9A0043D54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TommyAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StatenInc.TommyAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TommyAttack.app/TommyAttack";
+			};
+			name = Debug;
+		};
+		946AFF821F1D3F9A0043D54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TommyAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StatenInc.TommyAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TommyAttack.app/TommyAttack";
+			};
+			name = Release;
+		};
+		946AFF841F1D3F9A0043D54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TommyAttackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StatenInc.TommyAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TommyAttack;
+			};
+			name = Debug;
+		};
+		946AFF851F1D3F9A0043D54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TommyAttackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StatenInc.TommyAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TommyAttack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946AFF4A1F1D3F990043D54F /* Build configuration list for PBXProject "TommyAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946AFF7B1F1D3F9A0043D54F /* Debug */,
+				946AFF7C1F1D3F9A0043D54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946AFF7D1F1D3F9A0043D54F /* Build configuration list for PBXNativeTarget "TommyAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946AFF7E1F1D3F9A0043D54F /* Debug */,
+				946AFF7F1F1D3F9A0043D54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946AFF801F1D3F9A0043D54F /* Build configuration list for PBXNativeTarget "TommyAttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946AFF811F1D3F9A0043D54F /* Debug */,
+				946AFF821F1D3F9A0043D54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946AFF831F1D3F9A0043D54F /* Build configuration list for PBXNativeTarget "TommyAttackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946AFF841F1D3F9A0043D54F /* Debug */,
+				946AFF851F1D3F9A0043D54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946AFF471F1D3F990043D54F /* Project object */;
+}
